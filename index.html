@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Minimarket</title>
+    <!--Styles CSS-->
+    <link rel="stylesheet" href="./styles.css/styles.css">
+</head>
+
+<body>
+    <!--Encabezado-->
+    <header class="header">
+        <!--Logo-->
+        <img class="logo" src="./assets/img/soloLogo.png">
+        <!--Nombre-->
+        <h1 class="principal_title">Flash sales Minimarket</h1>
+    </header>
+
+    <nav class="navbar sticky">
+        <!--Menu imagenes-->
+        <!--Redirige al index-->
+        <a href="./index.html">Home</a>
+        <!--Redirige a una galeria en una pestaña nueva-->
+        <a href="./paginas/galeria1.html" target="_blank">Productos</a>
+        <!--Redirige a una galeria en la misma pestaña-->
+        <a href="./paginas/galeria2.html">Instalaciones</a>
+        <!--Redirige a un parrafo-->
+        <a href="#parrafo1">Historia</a>
+        <!--Redirige a otro parrafo-->
+        <a href="#parrafo2">Lista de proveedores</a>
+    </nav>
+
+    <main>
+        <!--Principal image-->
+        <img class="principal_image" src="./assets/img/Tienda.jpg">
+        <!--Información empresarial-->
+        <section>
+            <!--Mision-->
+            <div class="card">
+                <div class="section_content">
+                    <h2 class="subtitle">Misión</h2>
+                    <hr>
+                    <p class="paragraph">Satisfacer a nuestros socios y clientes con una compra única de calidad,
+                        variedad, precio y
+                        servicio,basada en la atención y el compromiso de nuestros trabajadores. Proyectar nuestros
+                        supermercados y productos a nivel nacional, a través de la identificación y
+                        satisfacción de las necesidades y expectativas de nuestros clientes, generando nuevas fuentes de
+                        empleo, promoviendo el desarrollo y bienestar de nuestros colaboradores.
+                    </p>
+                </div>
+                <div clas="image_container">
+                    <img class="icon" src="./assets/img/mision.svg">
+                </div>
+            </div>
+        </section>
+        <!--Vision-->
+        <section>
+            <div class="card">
+                <div clas="image_container">
+                    <img class="icon" src="./assets/img/vision.svg">
+                </div>
+                <div class="section_content">
+                    <h2 class="subtitle">Visión</h2>
+                    <hr>
+                    <p class="paragraph">Satisfacer a nuestros socios y clientes con una compra única de calidad,
+                        variedad, precio y
+                        servicio,basada en la atención y el compromiso de nuestros trabajadores. Proyectar nuestros
+                        supermercados y productos a nivel nacional, a través de la identificación y
+                        satisfacción de las necesidades y expectativas de nuestros clientes, generando nuevas fuentes de
+                        empleo, promoviendo el desarrollo y bienestar de nuestros colaboradores.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--Historia-->
+        <section>
+            <div class="card">
+                <div class="section_content">
+                    <h2 class="subtitle">Historia</h2>
+                    <hr>
+                    <p class="paragraph" id="parrafo1">Somos una empresa Quindiana dedicada a la venda de productos para
+                        la comunidad. La
+                        compañía fue fundada en Armenia en el año 1997 por Jessica Berrío. Su oferta comercial se
+                        desarrolla a través de formatos de pequeña superficie y de tiendas de cercanía. La empresa es
+                        considerada una de las más importantes del suroccidente Cuyabro.
+                        Jessica Berrío, presidente de Flash Sales, recuerda con orgullo como la década de los 2000
+                        Jhonatan David Rico le hizo un ofrecimiento para que fuera socio en un negocio que tenía, el
+                        cual estaba ubicado en pleno centro de la ciudad de Armenia y que tenía por nombre "Mercado
+                        Cuyabro". Años después esta historia sería ejemplo de liderazgo para el departamento.
+                        <br>
+                        A partir del año 2020 el gerente general de Flash Sales es el señor Cristian Santofimio,
+                        teniendo en cuenta que Flash Sales pertenece a la familia Echeverri Berrio.
+
+                        Flash Sales cuenta con su sede principal en la carrera 14 de Armenia, esta ordena a todas sus
+                        sedes en
+                        Colombia, aquí se encuentra la parte administrativa, contable y en si todas las áreas.
+                    </p>
+                </div>
+                <div clas="image_container">
+                    <img class="icon" src="./assets/img/history.svg">
+                </div>
+            </div>
+        </section>
+        <!--Proveedores-->
+        <section>
+            <div class="card">
+                <div clas="image_container">
+                    <img class="icon" src="./assets/img/provider.svg">
+                </div>
+                <div class="section_content">
+                    <h2 class="subtitle">Nuestros proveedores</h2>
+                    <hr>
+                    <p class="paragraph" id="parrafo2">Dentro de nuestra lista de proveedores se encuentran empresas colombianas
+                        reconocidas de diferentes sectores de alimentos, aseo, frutas y verduras de agricultores de la
+                        región, carnes, productos no perecederos, productos lácteos, dulces, entre otros.
+                    </p>
+                </div>
+        </section>
+        <section class="status">
+            <label>Mes:</label>
+            <label id="mes"></label>
+            <label>Día:</label>
+            <label id="dia"></label>
+            <label>Año:</label>
+            <label id="a_o"></label>
+            <label>| Visitas:</label>
+            <label id="visitas"></label>
+        </section>
+    </main>
+    <footer class="footer">
+        <a href="./paginas/identidad.html">¿Quienes somos?</a>
+        <a href="https://www.exito.com/" target="_blank">Artículos de interés</a>
+    </footer>
+
+    <!--Script Javascript-->
+    <script src="./script.js/script.js"></script>
+</body>
+
+</html>
